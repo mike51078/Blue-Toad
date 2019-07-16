@@ -1,3 +1,25 @@
 body {
-	background: yellow;
+	width: 80%;
+	max-width: 1600px;
+	margin: 0 auto;
+}
+
+form {
+	padding-bottom: 1em;
+}
+
+img {
+	object-fit: cover;
+	width: 192px;
+	height: 192px;
+	padding: 0 4px;
+}
+
+.PhotoResult {
+	float: left;
+	position: relative;
+}
+
+.photos {
+	padding-bottom: 15px;
 }
