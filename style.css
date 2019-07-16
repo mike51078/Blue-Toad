@@ -2,24 +2,20 @@ body {
 	width: 80%;
 	max-width: 1600px;
 	margin: 0 auto;
+	background: rgba(66, 212, 245, 0.3);
 }
 
+/* provide spacing underneath form */
 form {
-	padding-bottom: 1em;
+	padding-bottom: 20px;
 }
 
+/* styling for the images after rendering  */
 img {
-	object-fit: cover;
 	width: 192px;
 	height: 192px;
-	padding: 0 4px;
-}
-
-.PhotoResult {
+	object-fit: cover;
+	padding: 1px;
 	float: left;
 	position: relative;
-}
-
-.photos {
-	padding-bottom: 15px;
 }
